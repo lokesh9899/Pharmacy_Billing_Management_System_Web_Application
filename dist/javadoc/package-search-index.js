@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.exavalu.pharmacymgmt.models"},{"l":"com.exavalu.pharmacymgmt.services"},{"l":"com.exavalu.pharmacymgmt.utils"}];updateSearchResults();

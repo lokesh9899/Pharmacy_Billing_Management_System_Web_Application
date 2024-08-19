@@ -1,0 +1,49 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 22-Feb-2023, 1:20:18 pm
+    Author     : RITWIK SHAW
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-font-family: 'Poppins', sans-sarif;
+    --light-white: #f5f8fa;
+    --gray: #5e6278;
+    --gray-1: #e3e3e3;
+}
+
+body{
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+}
+
+.modal-body input{
+    background-color: #f5f8fa;
+    border-color: #f5f8fa;
+    color: #5e6278;
+
+}
+
+.modal-body .submit_btn{
+    padding: 15px;
+    font-weight: 500;
+}
+
+.modal-body .login_with{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.modal-body .login_with img{
+    max-width: 8%
+}
+

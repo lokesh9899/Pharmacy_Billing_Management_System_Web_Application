@@ -1,0 +1,142 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21-Feb-2023, 11:42:10 pm
+    Author     : sandeep kamila
+*/
+
+body {
+    font-family: sans-serif;
+   
+}
+
+h1 {
+    padding-bottom:1.5rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: #474E68;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+.container {
+/*    box-shadow: 10px 10px 5px lightblue;*/
+     background-image: linear-gradient(to top right,#102a54,#73a1eb,#7a96c4);
+    width: 40%;
+    margin: 10px auto;
+    padding: 20px;
+/*    background-color: #4863A0;*/
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+label {
+    display: block;
+    padding: 0.2rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+select option[disabled]:first-child {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.medicine {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.medicine-name {
+    font-weight: bold;
+}
+
+.remove-medicine {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/*.container{
+    display: flex;
+    justify-content: center;
+}*/
+
+
+
+.add{
+    margin-bottom: 1rem;
+}
+
+
+
+#print{
+    width: 120px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#submit-order {
+    width: 120px;
+}
+
+
+#quantity{
+    
+    width: 100%;
+    height: 2rem;
+    border-radius: 5px;
+     border: none;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.medicine{
+    background-color: white;
+}
+
+#add-medicine{
+    background-color: #B25068;
+}
+
+#add-medicine:hover{
+    background-color: #3e8e41;
+}
+
+.fa-solid{
+    color: #B25068  ;
+}

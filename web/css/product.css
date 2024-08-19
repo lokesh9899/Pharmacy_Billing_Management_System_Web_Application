@@ -1,0 +1,87 @@
+
+.container {
+    width: 100%;
+}
+
+.site-header {
+    background-color: black;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    width: 100%;
+}
+.site-header a {
+    color: white;
+    transition: color .15s ease-in-out;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: monospace;
+}
+.site-header a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+.site-header .welcome_text_color{
+    color: yellow;
+    cursor: auto;
+}
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+
+.product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+}
+
+.product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+}
+
+table{
+/*    display: flex;*/
+    /*justify-content: center;*/
+    text-align: center;
+    margin: 35px 0px;
+/*    padding-top:10px;
+    border:2px solid black;*/
+}
+
+tr,th,td{
+    border:2px dotted black;
+    padding: 15px;
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    padding-top: 35px;
+}
+.backgroud_color{
+    background-color: darkseagreen;
+}
+.flex-equal > * {
+    flex: 1;
+}
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+        flex: 1;
+    }
+}
+
